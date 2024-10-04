@@ -14,5 +14,5 @@ En este proyecto nos enfocamos en mantener un sistema de gestion de prestamos pa
 **Instrucciones de compilación y ejecución:**
 1. Clonar el repositorio.
 2. Ejecutar `mvn clean package` para compilar el proyecto.
-3. Ejecutar `java -jar target/sistema-gestion-alumnos.jar` para iniciar la
+3. Ejecutar `java -jar target/biblioteca_primera.jar` para iniciar la
 aplicación.
