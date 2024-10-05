@@ -1,4 +1,4 @@
-# CS1_Biblioteca_EquipoOIsma_Wilfer
+# CS1_Biblioteca_EquipoIsma_Wilfer
 **Nombre de la Materia:** Construccion de Software I
 **Nombre del Proyecto:** Biblioteca
 **Equipo:** Equipo Isma_Wilfer
