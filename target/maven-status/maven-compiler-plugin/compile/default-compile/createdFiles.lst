@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com\mycompany\biblioteca_primera\User.class
 com\mycompany\biblioteca_primera\Registrable.class
 com\mycompany\biblioteca_primera\LibraryApp.class
@@ -6,4 +7,9 @@ com\mycompany\biblioteca_primera\Course.class
 com\mycompany\biblioteca_primera\Library.class
 com\mycompany\biblioteca_primera\ActivityLog.class
 com\mycompany\biblioteca_primera\Book.class
+=======
+com\mycompany\biblioteca_primera\LibraryApp.class
+com\mycompany\biblioteca_primera\Material.class
+com\mycompany\biblioteca_primera\Library.class
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
 com\mycompany\biblioteca_primera\Person.class

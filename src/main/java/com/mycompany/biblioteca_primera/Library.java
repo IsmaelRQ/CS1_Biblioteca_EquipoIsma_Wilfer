@@ -4,20 +4,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
+<<<<<<< HEAD
     private final List<Person> people;   
     private final List<Material> materials; 
+=======
+    private final List<Person> people;
+    private final List<Material> materials;
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
 
     public Library() {
         people = new ArrayList<>();
         materials = new ArrayList<>();
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
     public void registerPerson(Person person) {
         people.add(person);
         System.out.println("Persona registrada: " + person);
     }
 
+<<<<<<< HEAD
 
     public void removePerson(String id) {
         boolean removed = people.removeIf(person -> person.getIdNumber().equals(id));
@@ -29,11 +38,19 @@ public class Library {
     }
 
 
+=======
+    public void removePerson(String id) {
+        people.removeIf(person -> person.getIdNumber().equals(id));
+        System.out.println("Persona con cedula " + id + " eliminada.");
+    }
+
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
     public void registerMaterial(Material material) {
         materials.add(material);
         System.out.println("Material registrado: " + material.getTitle());
     }
 
+<<<<<<< HEAD
   
     public void eliminarMaterial(String identifier) {
         boolean removed = materials.removeIf(material -> material.getIdentifier().equals(identifier));
@@ -52,6 +69,8 @@ public class Library {
         }
     }
 
+=======
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
     public void loanMaterial(String identifier) {
         for (Material material : materials) {
             if (material.getIdentifier().equals(identifier)) {
@@ -62,7 +81,10 @@ public class Library {
         System.out.println("Material no encontrado.");
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
     public void returnMaterial(String identifier) {
         for (Material material : materials) {
             if (material.getIdentifier().equals(identifier)) {
@@ -73,7 +95,10 @@ public class Library {
         System.out.println("Material no encontrado.");
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 284040ecbdaa8e54401915380f6c5194f52854fc
     public void renewMaterial(String identifier) {
         for (Material material : materials) {
             if (material.getIdentifier().equals(identifier)) {
